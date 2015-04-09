@@ -9,6 +9,7 @@ html, body {
 	height: 99%;
 	width: 80%;
 	border: 1px solid black;
+	border-radius: 10px;
 	margin: 50px 150px;
 	background: #fff;
 }
@@ -18,31 +19,73 @@ html, body {
 	display: flex;
 	flex-direction: row;
 	-webkit-flex-direction: row;
-	height: 175px;
+	height: 125px;
 	width: 96%;
 	background: #fff;
 	justify-content: space-between;
 	-webkit-justify-content: space-between;
-	margin: 20px;
+	margin: 15px 20px 5px 20px;
+}
+
+.second-row-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	height: 125px;
+	width: 96%;
+	background: #fff;
+	margin: 15px 20px 5px 20px;
+}
+.bottom-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	height: 125px;
+	width: 96%;
+	background: #fff;
+	margin: 150px 20px 5px 20px;
 }
 
 .box {
-	height: 175px;
+	height: 125px;
 	width: 250px;
-	border-radius: 4px;
 }
 
 .red {
-	background: red;
+	background: #D0021B;
 }
 
 .blue {
-	background: blue;
+	background: #4A90E2;
 }
 
 .gray {
-	background: gray;
+	background: #4A4A4A;
 }
 p {
-	margin: 0px 10px;
+	margin: 5px 20px;
 }
+.left {
+	background: #D0021B;
+	height: 250px;
+}
+.right {
+	background: #4A90E2;
+	width: 530px;
+	height: 250px;
+}
+.stretch {
+	background: #4A90E2;
+	width: 530px;
+}
+.contain {
+	background: #D0021B;
+}
+.fill {
+	background: #4A4A4A;
+	width: 200px;
+	margin-left: 26px;
+}
+
