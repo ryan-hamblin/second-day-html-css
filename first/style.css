@@ -4,3 +4,45 @@ html, body {
 	margin: 0;
 	background: #dddddd;
 }
+
+.page-wrapper {
+	height: 99%;
+	width: 80%;
+	border: 1px solid black;
+	margin: 50px 150px;
+	background: #fff;
+}
+
+.top-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	height: 175px;
+	width: 96%;
+	background: #fff;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	margin: 20px;
+}
+
+.box {
+	height: 175px;
+	width: 250px;
+	border-radius: 4px;
+}
+
+.red {
+	background: red;
+}
+
+.blue {
+	background: blue;
+}
+
+.gray {
+	background: gray;
+}
+p {
+	margin: 0px 10px;
+}
