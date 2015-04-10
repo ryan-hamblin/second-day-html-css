@@ -1,0 +1,101 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.wrapper {
+    min-height: 1400px;
+    max-height: 1400px;
+    min-width: 1024px;
+    max-width: 1024px;
+    background: #D8D8D8;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.top_body {
+    max-height: 390px;
+    min-height: 390px;
+    max-width: 850px;
+    max-width: 850px;
+    background: #fff;
+}
+.lorem {
+    padding: 10px 43px;
+    font-size: 20px;
+    
+}
+.button-layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 43px;
+}
+button{
+    max-height: 75px;
+    min-height: 75px;
+    max-width: 180px;
+    min-width: 180px;
+    margin-right: 43px;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 5px;
+    font-family: helvetica;
+    font-size: 20px;
+    color: #fff;
+}
+.red {
+    background: #D0021B;
+}
+.blue {
+    background: #4A90E2;
+}
+.bottom_body {
+    max-height: 765px;
+    min-height: 765px;
+    max-width: 850px;
+    min-width: 850px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.randomIMG {
+    min-height: 430px;
+    max-height: 430px;
+    min-width: 760px;
+    max-width: 760px;
+    margin-top: 40px;
+    background: url("http://cdn.redmondpie.com/wp-content/uploads/2014/09/Apple-Watch-logo-main1.png");
+    background-size: cover;
+}
+.blorem {
+    padding: 10px 43px;
+    font-size: 22px;
+}
+.contacts_bar {
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 1124px;
+    max-width: 1124px;
+    background: #333333;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+.button {
+    min-height: 90px;
+    max-height: 90px;
+    min-width: 27px;
+    min-width: 27px;
+    color: #fff;
+    font-size: 22px;
+    padding-right: 100px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.google {
+    margin-right: 100px;
+}
+    
