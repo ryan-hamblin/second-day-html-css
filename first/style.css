@@ -2,16 +2,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: 0;
-	background: #dddddd;
-}
-
-.page-wrapper {
-	height: 99%;
-	width: 90%;
-	border: 1px solid black;
-	border-radius: 10px;
-	margin: 50px 150px;
-	background: #fff;
+	background: #fff
 }
 
 .top-container {
@@ -22,8 +13,8 @@ html, body {
 	height: 125px;
 	width: 96%;
 	background: #fff;
-	justify-content: space-around;
-	-webkit-justify-content: space-around;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
 	margin: 15px 20px 5px 20px;
 }
 
@@ -70,22 +61,28 @@ p {
 .left {
 	background: #D0021B;
 	height: 250px;
+	flex: 1 0 0;
+	-webkit-flex: 1 0 0;
 }
 .right {
 	background: #4A90E2;
 	width: 530px;
 	height: 250px;
+	flex: 1 0 0;
+	-webkit-flex: 2 0 0;
 }
 .stretch {
 	background: #4A90E2;
 	width: 530px;
+	flex: 2 0 0;
 }
 .contain {
 	background: #D0021B;
+	flex: 1 0 0;
 }
 .fill {
 	background: #4A4A4A;
 	width: 200px;
-	margin-left: 26px;
+	margin-left: 90px;
 }
 
