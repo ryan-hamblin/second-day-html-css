@@ -4,6 +4,12 @@ html, body {
 	margin: 0;
 	background: #fff
 }
+.page-wrapper {
+	height: 99% ;
+	width: 99%;
+	border: 1px solid black;
+	margin: 10px;
+}
 
 .top-container {
 	display: -webkit-flex;
@@ -75,6 +81,7 @@ p {
 	background: #4A90E2;
 	width: 530px;
 	flex: 2 0 0;
+	-webkit-flex: 2 0 0;
 }
 .contain {
 	background: #D0021B;

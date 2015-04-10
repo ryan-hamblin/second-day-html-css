@@ -1,0 +1,58 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+}
+
+header {
+	height: 75px;
+	width: 100%;
+	background: #333333;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+
+}
+.button {
+	width: 100px;
+	height: 20px;
+	margin: 20px;
+	background: #333333;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #fff;
+	margin: 10;
+}
+.column-wrapper {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 10px;
+	font-family: helvetica;
+	margin: 20px;
+}
+.column {
+	width: 50%;
+	height: 100%;
+}
+.image {
+	background: url(http://www.adventuretimevideogames.com/wp-content/uploads/2014/02/Adventure-Time_Characters.gif);
+	background-size: cover;
+	height: 200px;
+	width: 92%;
+}
+.footer {
+	height: 75px;
+	width: 100%;
+	background: #333;
+}
+
+
+
+
+
+
+
+
